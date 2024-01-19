@@ -2,6 +2,7 @@ const btnTry = document.querySelector("#btnTry")
 const btnReset = document.querySelector("#btnReset")
 const screen1 = document.querySelector(".screen1")
 const screen2 = document.querySelector(".screen2")
+const errou1 = document.querySelector(".errou1")
 
 let randomNumber = Math.round(Math.random() * 10)
 let xAttempts = 1
@@ -30,9 +31,11 @@ function handleTryClick(event) {
       screen2.querySelector(
         "h2"
       ).innerText = `Acertou em ${xAttempts} tentativas`
+    } else {
+      screen1.querySelector(".errou1").innerText = `Você errou ${xAttempts} x`
+      inputNumber.value = ""
+      xAttempts++
     }
-    inputNumber.value = ""
-    xAttempts++
   }
 }
 
