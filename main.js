@@ -33,6 +33,7 @@ function handleTryClick(event) {
       ).innerText = `Acertou em ${xAttempts} tentativas`
     } else {
       screen1.querySelector(".errou1").innerText = `Você errou ${xAttempts} x`
+      errou1.classList.remove("hide")
       inputNumber.value = ""
       xAttempts++
     }
