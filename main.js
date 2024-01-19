@@ -54,4 +54,5 @@ function handleResetClick() {
 function toggleScreen() {
   screen1.classList.toggle("hide")
   screen2.classList.toggle("hide")
+  errou1.classList.add("hide")
 }
