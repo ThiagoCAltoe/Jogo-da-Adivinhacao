@@ -29,7 +29,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 Um game que consiste em adivinhar um número de 0 a 10!
 
-- [Acesse o projeto finalizado, online](adivinha.thiagocostaaltoe.com.br)
+- [Acesse o projeto finalizado, online](https://adivinha.thiagocostaaltoe.com.br)
 
 ## :memo: Licença
 
